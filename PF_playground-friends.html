@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1,minimum-scale=1,maximum-scale=5">
+        <meta name="format-detection" content="telephone=no">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <title>Playground Friends - 의대생 놀이터</title>
+        <style>
+
+        /*html이랑 body랑 margin, padding 잡아줌 */
+        /*https://hashcode.co.kr/questions/8500/html-body-%EC%97%AC%EB%B0%B1-
+        %EC%A0%9C%EA%B1%B0*/
+        html, body { 
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+        .nav {
+            display: flex; 
+            position: relative;
+            max-width: 1130px;
+            margin: 0 auto; /* https://hansolcha.tistory.com/4 */
+            height: 65px;
+            border-bottom: 2px solid black;
+            background: rgb(8, 255, 20);
+        }
+
+        .logo {
+            font: normal 12px/1.2 "Open Sans","Noto Sans KR",sans-serif;
+            font-size: 12px;
+        }
+
+        .nav-right-items {
+            background: rgb(255, 24, 8);
+            display: flex;
+            margin-left: auto;
+        }
+
+        .ad {
+            height: 258px;
+            background:rgb(146, 146, 146);
+            width: 100%;
+        }
+        
+        .main {
+            display: flex;
+            margin: 0 auto;
+            width: 1130px;
+            height: 100%;
+            border: 3px solid #73AD21;
+        }
+
+        .left-section {
+            background: rgb(241, 255, 118);
+            float: left;
+            width: 80%;
+        }
+
+        .right-section {
+            background: rgb(123, 143, 255);
+            float: right;
+            width: 20%;
+        }
+
+        .first-row {
+            display: flex;
+        }
+
+        .second-row {
+            display: flex;
+        }
+
+        .thread-box {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 20px;
+            border-radius: 1px;
+            text-align: center;
+        }
+        </style>
+
+        
+    </head>
+
+    <body>
+        <div class="nav">
+            <div class="logo">
+                칠곡로고랑 홈페이지로 연결
+            </div>
+        
+            <div class="nav-right-items">
+                <div class="nav-item">로그인 하는곳</div>
+                <div class="nav-item">메뉴2</div>
+                <div class="nav-item">메뉴3</div>
+                <div class="nav-item">메뉴4</div>  
+            </div>
+        </div>
+
+        <div class="ad">
+            큰 이미지
+        </div>
+        
+        <div class="main">
+            <div class="left-section">
+                <div class="first-row">
+                    <div class="thread-box">
+                        글쓰는곳 위,왼쪽
+                    </div>
+
+                    <div class="thread-box">
+                        글쓰는곳 위, 오른쪽
+                    </div>
+                </div>
+
+                <div class="second-row">
+                    <div class="thread-box">
+                        글쓰는곳 아래, 왼쪽
+                    </div>
+
+                    <div class="thread-box">
+                        글쓰는곳 아래, 오른쪽
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="right-section">
+                오른쪽 메뉴들
+            </div>
+        </div>
+
+    </body>
+
+
+
+</html>
